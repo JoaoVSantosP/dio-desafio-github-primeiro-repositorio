@@ -1,0 +1,23 @@
+INTRODUÇÃO AO GIT
+
+- Comandos básicos (Windows)
+
+cd .. 
+dir 
+cd /
+cls
+mkdir
+cd [nome pasta]
+del [nome pasta]
+rmdir [nome pasta]
+
+- Comandos Básicos (Git)
+git init
+git clone [link copiado]
+ls
+ls - a
+git add
+git add *
+git commit
+git push
+git pull
