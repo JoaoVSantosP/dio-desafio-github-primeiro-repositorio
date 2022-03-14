@@ -1,0 +1,36 @@
+Linguagem Interpretada
+Baseada em Protótipos
+Multiparadigma
+Padrão ECMAScript
+
+===============
+
+console.log para imprimir no console (mais usado quando o código está sendo debugado)
+
+"const" não se altera, ou seja, não existe (const = const - num)
+'var" pode alterar
+
+ ---- ARRAYS ----
+
+ * Podem armazenar qualquer valor 
+ * Declarados entre "[]". Ex: let vetor = [1, 5, gato, x]
+ * Valores são acessador a partir de inteiros
+
+• forEach() – itera um array;
+• push() – add item no final do array;
+• pop() – remove item no final do array;
+• shift() – remove item no início do array;
+• unshift() – add item no início do array;
+• indexOf() – retorna o índice de um valor;
+• splice() – remove ou substitui um item pelo índice;
+• slice() – retorna uma parte de um array existente;
+
+---- OBJETOS ----
+
+* Dados que possuem propriedades e Valores
+* Declarados entre "{}". Ex: var xicara = {cor: ‘verde’, tamanho: ‘g’, funcao: Encher()}
+* Propriedades atribuídas à variáveis. 
+var cor = xicara.cor;
+var tamanho = xicara.tamanho;
+var funcao = Encher(); 
+
