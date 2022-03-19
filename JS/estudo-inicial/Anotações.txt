@@ -34,3 +34,20 @@ var cor = xicara.cor;
 var tamanho = xicara.tamanho;
 var funcao = Encher(); 
 
+---- DEBBUGING AND ERROR HANDLING ---
+
+* ECMAScript Error: Erros que acontecem no tempo de execução 
+ - Composto por: Mensagem, Nome, Linha, Call stack
+
+ DOMException: Erros relacionados ao DOM
+ - Erro de estrutura dentro da página da web
+
+ ---- ASSINCRONISSIDADE ----
+
+ * Promises - Objeto de processamento assíncrono
+    - De começo, seu valor é desconhecido, Ela pode então, ser resolvida ou rejeitada.
+3 ESTADOS:
+    1) PENDING
+    2) FULFILLED
+    3) REJECTED
+
